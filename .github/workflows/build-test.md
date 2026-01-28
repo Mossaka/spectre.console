@@ -5,6 +5,9 @@ on:
 permissions:
   contents: read
 engine: copilot
+runtimes:
+  dotnet:
+    version: "8.0"
 network:
   firewall: true
   allowed:
